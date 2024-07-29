@@ -1,0 +1,25 @@
+{
+  "name": "karma-requirejs",
+  "version": "1.0.0",
+  "description": "Testing Require.js code with Karma ==================================",
+  "main": "karma.conf.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "karma start karma.conf.js -- --moduleName=IntegerManipulator.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine": "^5.2.0",
+    "karma": "^6.4.3",
+    "karma-chrome-launcher": "^3.2.0",
+    "karma-coverage": "^2.2.1",
+    "karma-jasmine": "^5.1.0",
+    "karma-requirejs": "^1.1.0",
+    "requirejs": "^2.3.7"
+  }
+}
