@@ -17,11 +17,11 @@ define(['StringManipulator'], (StringManipulator) => {
         expect(manipulator.toUpperCase('')).toBe('');
     });
 
-    // it('should convert a string to lowercase', function () {
-    //     expect(manipulator.toLowerCase('Hello World')).toBe('hello world');
-    //     expect(manipulator.toLowerCase('HELLO')).toBe('hello');
-    //     expect(manipulator.toLowerCase('')).toBe('');
-    // });
+    it('should convert a string to lowercase', function () {
+        expect(manipulator.toLowerCase('Hello World')).toBe('hello world');
+        expect(manipulator.toLowerCase('HELLO')).toBe('hello');
+        expect(manipulator.toLowerCase('')).toBe('');
+    });
 
     it('should reverse a string', function () {
         expect(manipulator.reverseString('Hello World')).toBe('dlroW olleH');

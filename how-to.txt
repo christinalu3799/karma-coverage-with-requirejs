@@ -1,6 +1,0 @@
-1. Run npm init -y 
-2. Install the following dev dependencies: 
-
-npm i jasmine karma-chrome-launcher karma-jasmine karma-requirejs requirejs --save-dev
-
-3. 
